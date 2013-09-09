@@ -4,10 +4,14 @@ These are the sources accompanying the blog post ["Measuring heart rate with a s
 
 **How to use the Matlab scripts**
 
-Compute the brightness signal from a video:
+1) Compute the brightness signal from a video:  
+```
 brightness = acquire('path to the video file');
+```
 
-Then, process the signal:
+2) Then, process the signal:  
+```
 process(brightness);
+```
 
 A plot will open and you will see an animation of the estimated heart rate over time.
